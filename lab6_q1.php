@@ -6,7 +6,7 @@
 
 <body>
 <?php
-$name = "Muhammad Asyraf";
+$name = "Nur Ain Syafiqah Binti Nor Azlan";
 $matric = "CI230153";
 $course = "Information Technology (BIT)";
 $yearStudy = 3;
