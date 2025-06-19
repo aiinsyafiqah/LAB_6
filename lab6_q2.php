@@ -25,7 +25,7 @@
             ];
 
             echo "<table border='1'>";
-            echo "<tr><th>Name</th> <th>Program></th> <th>Age</th></tr>";
+            echo "<tr><th>Name</th> <th>Program</th> <th>Age</th></tr>";
 
             foreach($students as $student){
                 echo "<tr>";
