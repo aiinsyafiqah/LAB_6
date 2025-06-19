@@ -24,14 +24,14 @@
             ]
             ];
 
-            echo "<table border='1>";
-            echo "<tr><th>Name</th> <thProgram></th> <th>Age</th></tr>";
+            echo "<table border='1'>";
+            echo "<tr><th>Name</th> <th>Program></th> <th>Age</th></tr>";
 
-            foreach($students as $students){
+            foreach($students as $student){
                 echo "<tr>";
-                echo "<td>{$students['name']}</td>";
-                echo "<td>{$students['program']}</td>";
-                echo "<td>{$students['age']}</td>";
+                echo "<td>{$student['name']}</td>";
+                echo "<td>{$student['program']}</td>";
+                echo "<td>{$student['age']}</td>";
                 echo "</tr>";
             
             }
@@ -40,6 +40,5 @@
               
         ?>
 
-        
-            </html>
     </body>
+    </html>
