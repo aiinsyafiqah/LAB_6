@@ -36,10 +36,10 @@
             
             }
 
-            echo "</table>"
+            echo "</table>";
               
         ?>
 
         
-
+            </html>
     </body>
