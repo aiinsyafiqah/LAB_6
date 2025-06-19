@@ -24,8 +24,20 @@
             ]
             ];
 
-        foreach ($students as $key => $value)
-            echo $key . ": " . $value . "<br"
+            echo "<table border='1>";
+            echo "<tr><th>Name</th> <thProgram></th> <th>Age</th></tr>";
+
+            foreach($students as $index => $students){
+                echo "<tr>";
+                echo "<td>{$students['name']}</td>";
+                echo "<td>{$students['program']}</td>";
+                echo "<td>{$students['age']}</td>";
+                echo "</tr>";
+            
+            }
+
+            echo "</table>"
+              
         ?>
 
         
