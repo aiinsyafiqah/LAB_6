@@ -27,7 +27,7 @@
             echo "<table border='1>";
             echo "<tr><th>Name</th> <thProgram></th> <th>Age</th></tr>";
 
-            foreach($students as $index => $students){
+            foreach($students as $students){
                 echo "<tr>";
                 echo "<td>{$students['name']}</td>";
                 echo "<td>{$students['program']}</td>";
